@@ -1,0 +1,9 @@
+app:
+  name: my-service
+  environment: production
+
+api_token: YHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuD3OvISzg4EpFHAFe1jJudnP31YL7MGbxcVwRMnylnAgw7ty2umsdzluFxwqOGO7xr63pozNjOfSzmJUoDuQ
+
+logging:
+  level: info
+  format: json
