@@ -14,7 +14,7 @@ services:
     image: postgres:15
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: p8792441ea21663cbe53a3c592971b3d67b4a7dd91e
+      DATABASE_URL: postgresql://admin:p8792441ea21663cbe53a3c592971b3d67b4a7dd91e@localhost:5432/appdb
       POSTGRES_DB: appdb
     ports:
       - "5432:5432"
